@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paweł Pielech - CV</title>
+  <style>
+    body { background-color: #121212; color: #e0e0e0; font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #1e1e1e; padding: 1rem; text-align: center; font-size: 1.5rem; border-bottom: 1px solid #333; }
+    nav { display: flex; justify-content: center; gap: 1rem; background-color: #1a1a1a; padding: 0.5rem; }
+    nav button { background: none; color: white; border: 1px solid #555; padding: 0.5rem 1rem; cursor: pointer; }
+    nav button:hover { background-color: #333; }
+    section { display: none; padding: 2rem; }
+    section.active { display: block; }
+    .container { max-width: 960px; margin: auto; }
+    h2 { color: #90caf9; border-bottom: 1px solid #444; padding-bottom: 0.3rem; }
+    .profile { display: flex; justify-content: space-between; gap: 2rem; flex-wrap: wrap; }
+    .profile-info { flex: 1; }
+    .profile-media { display: flex; align-items: center; gap: 2rem; }
+    .profile-photo { max-width: 200px; border-radius: 10px; margin: 0 auto; display: block; }
+    .qr-wrapper { background-color: #fff; padding: 10px; border-radius: 8px; display: inline-block; }
+    ul { list-style: disc; padding-left: 20px; }
+    a { color: #4fc3f7; }
+  </style>
+</head>
+<body>
+  <header>Paweł Pielech – CV (Dark Mode)</header>
+  <nav>
+    <button onclick="showSection('about')">About</button>
+    <button onclick="showSection('experience')">Experience</button>
+  </nav>
+  <div class="container">
+    <section id="about" class="active">
+      <h2>About</h2>
+      <div class="profile">
+        <div class="profile-info">
+          <p><strong>Name:</strong> Paweł Pielech</p>
+          <p><strong>Location:</strong> Eindhoven, North Brabant, Netherlands</p>
+          <p><strong>Email:</strong> pawelpielech@wp.pl</p>
+          <p><strong>Phone:</strong> 0645854842</p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/pawel-pielech-469385138" target="_blank">linkedin.com/in/pawel-pielech</a></p>
+        </div>
+        <div class="profile-media">
+          <img src="https://i.postimg.cc/dk7VgwZc/p.jpg" alt="Profile Photo" class="profile-photo">
+          <div class="qr-wrapper">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.linkedin.com/in/pawel-pielech-469385138" alt="QR Code to LinkedIn">
+          </div>
+        </div>
+      </div>
+      <p>Assembly Technician with hands-on experience in assembling, integrating, and qualifying complex mechanical and electronic systems. Skilled in working from technical drawings, ensuring quality control, and collaborating with cross-functional teams to improve assembly processes. Experienced in cleanroom environments and adhering to safety and quality standards. Adept at troubleshooting and problem-solving to enhance production efficiency.</p>
+      <p>In addition to my technical expertise, I am continuously expanding my knowledge in artificial intelligence, combining my passion for innovation and self-development with practical applications in modern manufacturing. I have a strong interest in PCB soldering, component integration, and emerging technologies, with 3D printing as my next area of exploration.</p>
+      <ul>
+        <li>I assemble electronic and mechanical products</li>
+        <li>I work according to IPC standards for PCB modification and inspection</li>
+        <li>I operate selective soldering machines</li>
+        <li>Troubleshooting and correcting deviations in high precision components</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Philips – Mechanic IGT Geo (Jul 2024 - Nov 2024)</strong><br>
+          <ul>
+            <li>Assembled mechanical components using engineering drawings and work instructions</li>
+            <li>Ensured completeness of materials and parts through checklist verification</li>
+            <li>Performed precision adjustments, cable routing, and rotational movement checks</li>
+            <li>Conducted corrections and troubleshooting for mechanical deviations</li>
+          </ul>
+        </li>
+        <li><strong>KMWE – Test Mechanic Assembly (Jan 2024 - Feb 2024)</strong><br>
+          <ul>
+            <li>Assembled and adjusted electronic and mechanical products per technical drawings</li>
+            <li>Conducted independent testing of machines, systems, and modules</li>
+            <li>Diagnosed, analyzed, and resolved malfunctions</li>
+            <li>Ensured compliance with health, safety, and environmental regulations</li>
+          </ul>
+        </li>
+        <li><strong>Neways – SMD Operator (Jul 2022 - Jan 2024)</strong><br>
+          <ul>
+            <li>Operated ERSA SELECTIVE soldering machines for PCB assembly</li>
+            <li>Conducted visual inspections, touch-ups, and solder defect corrections</li>
+            <li>Used X-ray technology and solder bath for rework</li>
+          </ul>
+        </li>
+        <li><strong>Junior Assembly Employee (Jul 2021 - Jul 2022)</strong><br>
+          <ul>
+            <li>Assembled and preassembled complex products</li>
+            <li>Soldered microelectronic components under microscope using IPC standards</li>
+            <li>Conducted PCB modifications and inspections</li>
+          </ul>
+        </li>
+        <li><strong>Innovar Cleaning – Cleanroom (Mar 2021 - Jul 2021)</strong><br>
+          <ul>
+            <li>Performed precision cleaning in cleanroom</li>
+            <li>Inspected with UV light</li>
+            <li>Reassembled and packaged components</li>
+          </ul>
+        </li>
+        <li><strong>Signify – Orderpicker (Sep 2020 - Mar 2021)</strong><br>
+          <ul>
+            <li>Picked and processed orders using picker truck</li>
+            <li>Maintained inventory and stock control</li>
+          </ul>
+        </li>
+        <li><strong>Prodrive – Assembly (Jun 2019 - Mar 2020)</strong><br>
+          <ul>
+            <li>Handled picking, shipping using combitruck</li>
+            <li>Used SAP for inventory and labeling</li>
+          </ul>
+        </li>
+        <li><strong>CEVA Logistics – Warehouse Operator (Mar 2018 - May 2019)</strong><br>
+          <ul>
+            <li>Picked, packed, shipped orders</li>
+            <li>Processed documentation</li>
+            <li>Maintained accurate stock records</li>
+          </ul>
+        </li>
+        <li><strong>Stock Polska – Mixing Operator (May 2017 - Mar 2018)</strong><br>
+          <ul>
+            <li>Operated forklift</li>
+            <li>Blended and bottled alcohol</li>
+            <li>Performed quality checks and measured ingredients</li>
+          </ul>
+        </li>
+        <li><strong>Baxter – Mixing Operator (Apr 2012 - Feb 2017)</strong><br>
+          <ul>
+            <li>Managed infusion fluid filling process</li>
+            <li>Prepared raw materials</li>
+            <li>Calibrated weights</li>
+            <li>Reported for QA</li>
+          </ul>
+        </li>
+        <li><strong>Quik's – Production Employee (Nov 2008 - Aug 2011)</strong><br>
+          <ul>
+            <li>Assisted in food production and packaging</li>
+            <li>Maintained hygiene and quality standards</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('section').forEach(section => section.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+</body>
+</html>
